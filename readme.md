@@ -1,3 +1,8 @@
+# Installing Vagrant
+
+Vagrant is a tool for building and managing virtual machine environments in a single workflow. 
+Following the instruction on this (link)[https://www.vagrantup.com/docs/installation/] to install Vagrant. 
+
 # Starting VM using vagrant box
 
 - Access the project directory
@@ -14,6 +19,7 @@
  - Use /opt/wildfly/bin/add-user.sh to add a new user to connect on the administration console or remotely using the CLI
 
  $ cd /opt/wildfly/bin/
+ 
  $ ./add-user.sh
 
 # Access Administration Console CLI
@@ -21,6 +27,7 @@
  - To access the WildFly Administration Console from the command line you can use the /opt/wildfly/bin/jboss-cli.sh script using the option --connect
 
  $ cd /opt/wildfly/bin/
+ 
  $ ./jboss-cli.sh --connect
 
 # Access Administration Console GUI
