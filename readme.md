@@ -7,7 +7,7 @@ Following the instructions [here](https://www.vagrantup.com/docs/installation/) 
 
 **WildFly** is an application server authored by **JBoss**, written in Java and implements the Java Platform Enterprise Edition (Java EE) specification.
 
-# Starting WildFy VM using vagrant box
+# Starting WildFly VM using vagrant box
 
 1. [Clone](https://github.com/macedojleo/vagrant-wildfly.git) this project
 2. Access the project directory
