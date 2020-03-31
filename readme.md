@@ -17,7 +17,9 @@ Following the instructions [here](https://www.vagrantup.com/docs/installation/) 
 
  4. Access the VM using:
   
- ```$ vagrant ssh``` 
+ ```$ vagrant ssh```
+ 
+ 5. Validate the WildFly instalation accessing the page http://127.0.0.1:8080
 
 # Configure WildFly Authentication
 
