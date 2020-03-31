@@ -5,18 +5,19 @@ Following the instructions [here](https://www.vagrantup.com/docs/installation/) 
 
 # Starting VM using vagrant box
 
-- Access the project directory
-- Start and provisioning VM
+1. [Clone](https://github.com/macedojleo/vagrant-wildfly.git) this project
+2. Access the project directory
+3. Start and provisioning the Virtual Machine
  
  ```$ vagrant up --provosioning ```
 
- - Access the VM using:
+ 4. Access the VM using:
   
  ```$ vagrant ssh``` 
 
 # Configure WildFly Authentication
 
- - Use /opt/wildfly/bin/add-user.sh to add a new user to connect on the administration console or remotely using the CLI
+Use /opt/wildfly/bin/add-user.sh script to add a new user to connect on the administration console or remotely using the command line CLI
 
  ``` 
  $ cd /opt/wildfly/bin/
@@ -25,7 +26,7 @@ Following the instructions [here](https://www.vagrantup.com/docs/installation/) 
 
 # Access Administration Console CLI
 
- - To access the WildFly Administration Console from the command line you can use the /opt/wildfly/bin/jboss-cli.sh script using the option --connect
+To access the WildFly Administration Console from the CLI you can use the **/opt/wildfly/bin/jboss-cli.sh** script with the option --connect
 
  ```
  $ cd /opt/wildfly/bin/
@@ -34,7 +35,7 @@ Following the instructions [here](https://www.vagrantup.com/docs/installation/) 
  
 # Access Administration Console GUI
 
-- By default, the WildFly administration console is available only from localhost at http://localhost:9990/console.
-- Sign in using the user created before.
+By default, the WildFly administration console is available only from localhost at **http://localhost:9990/console.**
+Sign in the console using the user created before.
  
-### source: https://linuxize.com/post/how-to-install-wildfly-on-ubuntu-18-04/  
+**The Wild fly detailed instalation guide is [here](https://linuxize.com/post/how-to-install-wildfly-on-ubuntu-18-04/)**  
